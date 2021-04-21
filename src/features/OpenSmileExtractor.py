@@ -35,7 +35,7 @@ class OpenSmileExtractor(FeatureExtractor):
             num_workers (int, optional): Amount of cores to use. Defaults to 1.
         """
         paths = list(zip(input_paths, output_paths))
-        self.multi_process(self._process, paths, num_workers=num_workers)
+        self._multi_process(self._process, paths, num_workers=num_workers)
 
     def _process(self, paths):
         """Individual opensmile extraction process."""
