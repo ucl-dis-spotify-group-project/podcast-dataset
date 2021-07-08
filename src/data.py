@@ -16,8 +16,8 @@ def load_metadata(dataset_path):
 def relative_file_path(show_filename_prefix, episode_filename_prefix):
     """Return the relative filepath based on the episode metadata."""
     return os.path.join(
-        show_filename_prefix[5],
-        show_filename_prefix[6],
+        show_filename_prefix[5].upper(),
+        show_filename_prefix[6].upper(),
         show_filename_prefix,
         episode_filename_prefix,
     )
