@@ -2,7 +2,20 @@
 
 Spotify Podcast Dataset software
 
-SHOULD ADD LINK TO REPORT AND PAPER!!!
+A report with technical detail from the project which developed this software and a published paper can be found in the ./documentation directory
+
+- Alexander, Abigail, Matthijs Mars, Josh C. Tingey, Haoyue Yu, Chris Backhouse, Sravana Reddy, and Jussi Karlgren. "Audio Features, Precomputed for Podcast Retrieval and Information Access Experiments." In International Conference of the Cross-Language Evaluation Forum for European Languages, pp. 3-14. Springer, 2021.
+
+```
+@inproceedings{alexander2021audio,
+  title={Audio Features, Precomputed for Podcast Retrieval and Information Access Experiments},
+  author={Alexander, Abigail and Mars, Matthijs and Tingey, Josh C and Yu, Haoyue and Backhouse, Chris and Reddy, Sravana and Karlgren, Jussi},
+  booktitle={International Conference of the Cross-Language Evaluation Forum for European Languages},
+  pages={3--14},
+  year={2021},
+  organization={Springer}
+}
+```
 
 ## Getting started
 
